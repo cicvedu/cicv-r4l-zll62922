@@ -20,6 +20,13 @@ config SAMPLE_RUST_MINIMAL
 
 	  If unsure, say N.
 
+config SAMPLE_RUST_HELLOWORLD
+        tristate "Print HelloWorld for Rust"
+        help
+          To compile this as a module, choose M here:
+
+          If unsure, say N.
+
 config SAMPLE_RUST_PRINT
 	tristate "Printing macros"
 	help
